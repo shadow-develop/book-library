@@ -36,6 +36,6 @@ jobs:
      ## run: npx wait-on http://localhost:3000
      
     - name: Install playwright
-      run: npx install playwright
+      run: npx playwright install
     - name: Execute tests
       run: npm run test
